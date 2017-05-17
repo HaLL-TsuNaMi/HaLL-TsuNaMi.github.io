@@ -1,0 +1,88 @@
+body
+{
+  background-color: #181c66;
+  color: #464ed9;
+  text-align: center;
+  font-family: "Comic Sans MS", cursive;
+}
+/* Makes navbar */
+.nav
+{
+  background-color: #464ed9;
+  height: 40px;
+  border: 2.5px solid #9aa0ff;
+}
+
+.nav_wrapper
+{
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
+.nav ul
+{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+.nav ul li
+{
+  list-style-type: none;
+  display: inline-block;
+  padding-right::50px;
+  margin-right: 50px;
+  font-size: 29px;
+}
+
+.nav ul li:hover
+{
+  background-color: #9aa0ff;
+}
+
+.nav ul li a
+{
+  text-decoration: none;
+  color: #181c66;
+}
+/* Takes list dots away for pics and vids */
+ul li
+{
+  list-style-type: none;
+}
+/* aligns the list of pics */
+.Pics
+{
+  font-size: 50px;
+  text-align: right;
+  align-items: right;
+  float: right;
+
+}
+/* aligns the list of vids */
+.vids
+{
+  text-align: left;
+  align-items: left;
+  font-size: 50px;
+  float: left;
+}
+/* Makes my name decorated */
+h1 a
+{
+  text-decoration: none;
+  color: #464ed9;
+}
+
+h1 a:hover
+{
+  text-decoration: none;
+  color: #464ed9;
+}
+
+h1 a:visited
+{
+  text-decoration: none;
+  color: #464ed9;
+}
