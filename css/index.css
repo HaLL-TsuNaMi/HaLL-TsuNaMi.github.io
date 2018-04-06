@@ -1,7 +1,11 @@
 * {
-    font-family: "Comic Sans MS", Calibri;
+    font-family: "Open Sans", Calibri;
     margin: 0 auto;
     padding: 0 auto;
+}
+
+body {
+    background-color: #3f4754;
 }
 /*
 Index page
@@ -13,6 +17,7 @@ Index page
     position: fixed;
     top: 0%;
     left: 0%;
+    z-index: 1;
 }
 
 .nav ul {
@@ -22,10 +27,44 @@ Index page
 
 .nav ul li {
     display: inline-block;
-    padding-right: 1%;
-    
+    padding-right: 3%;
+    float: right;
+    font-size: 220%;
+    color: white;
 }
 
-.head img {
+.nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav ul li a:hover {
+    background-color: #7FADF8;
+}
+
+.head {
     float: left;
+    background-color: #7FADF8;
+    padding-right: 2%;
+    color: #424249;
+    padding-left: 1.5%;
+    font-size: 150%;
+}
+
+.head h2 a {
+    text-decoration: none;
+    color: #424249;
+}
+
+.code img {
+    margin-top: 1%;
+}
+
+.imgTxt {
+    position: unset;
+    text-align: center;
+    color: white;
+    z-index: 1;
+    margin-top: -22.5%;
+    font-size: 150%;
 }
