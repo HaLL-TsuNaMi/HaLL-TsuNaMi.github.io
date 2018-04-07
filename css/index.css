@@ -26,7 +26,7 @@ Index page
 }
 
 .nav ul li {
-    display: inline-block;
+    display: block;
     padding-right: 3%;
     float: right;
     font-size: 220%;
@@ -67,4 +67,11 @@ Index page
     z-index: 1;
     margin-top: -22.5%;
     font-size: 150%;
+}
+
+.skills {
+    font-size: 125%;
+    color: white;
+    text-align: center;
+    margin-top: 10%;
 }
