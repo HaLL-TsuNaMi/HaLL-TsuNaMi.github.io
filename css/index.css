@@ -6,9 +6,10 @@
 
 body {
     background-color: #3f4754;
+    color: white;
 }
 /*
-Index page
+Home page
 */
 .nav {
     width: 100%;
@@ -58,6 +59,9 @@ Index page
 
 .code img {
     margin-top: 1%;
+    margin: auto;
+    padding: auto;
+    border-bottom: #7FADF8 solid 2px;
 }
 
 .imgTxt {
@@ -73,5 +77,46 @@ Index page
     font-size: 125%;
     color: white;
     text-align: center;
+    margin-top: 13%;
+}
+
+.box {
+    display: inline-block;
+    margin-top: 13%;
+    text-align: center;
+}
+/*
+Projects page
+*/
+.soon p {
     margin-top: 10%;
+    text-align: center;
+    font-size: 200%;
+}
+/*
+Contact me
+*/
+.soc {
+    margin-left: 18%;
+    display: inline-block;
+    text-align: center;
+    margin-top: 5%;
+}
+/*
+About page
+*/
+.about {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+    text-align: center;
+    border: #7FADF8 solid 1%;
+    border-radius: 20px;
+    background-color: #7FADF8;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
 }
