@@ -11,6 +11,8 @@ body {
 /*
 Home page
 */
+
+/* Makes navbar */
 .nav {
     width: 100%;
     background-color: #424249;
@@ -43,6 +45,9 @@ Home page
     background-color: #7FADF8;
 }
 
+/* end of nav bar */
+/* start of name in nav bar */
+
 .head {
     float: left;
     background-color: #7FADF8;
@@ -57,12 +62,18 @@ Home page
     color: #424249;
 }
 
+/* end of name */
+/* background image */
+
 .code img {
     margin-top: 1%;
     margin: auto;
     padding: auto;
     border-bottom: #7FADF8 solid 2px;
 }
+
+/* background img end */
+/* text on image */
 
 .imgTxt {
     position: unset;
@@ -73,38 +84,45 @@ Home page
     font-size: 150%;
 }
 
-.skills {
-    font-size: 125%;
-    color: white;
-    text-align: center;
-    margin-top: 13%;
-}
+/* end of image */
+/* makes skills centered */
 
 .box {
     display: inline-block;
     margin-top: 13%;
     text-align: center;
 }
+
+/* end of skills code */
+
 /*
 Projects page
 */
+/* centers coming soon txt */
+
 .soon p {
     margin-top: 10%;
     text-align: center;
     font-size: 200%;
 }
 /*
-Contact me
+Contact page
 */
+/* centers social media icons and txt */
+
 .soc {
     margin-left: 18%;
     display: inline-block;
     text-align: center;
     margin-top: 5%;
 }
+
+/* end of social media */
 /*
 About page
 */
+/* centers about page info */
+
 .about {
     padding-top: 1%;
     padding-bottom: 1%;
