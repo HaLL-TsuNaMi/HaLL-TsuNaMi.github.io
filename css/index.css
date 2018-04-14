@@ -115,8 +115,6 @@ Home page
 
 .code img {
 	margin-top: 1%;
-	overflow-x: hidden;
-	overflow-y: hidden;
 	border-bottom: #7FADF8 solid 2px;
 }
 
@@ -124,12 +122,13 @@ Home page
 /* text on image */
 
 .imgTxt {
-	position: unset;
+	position: absolute;
 	text-align: center;
 	color: white;
 	z-index: 1;
-	margin-top: -22.5%;
+	margin-top: 15%;
 	font-size: 150%;
+	width: 100%;
 }
 
 /* end of image */
@@ -137,7 +136,6 @@ Home page
 
 .box {
 	display: inline-block;
-	margin-top: 12%;
 	text-align: center;
 	margin-right: 1%;
 }
