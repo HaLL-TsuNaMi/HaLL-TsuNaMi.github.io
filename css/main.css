@@ -1,0 +1,191 @@
+/* CSS for home page */
+* {
+	margin: 0%;
+	padding: 0%;
+}
+
+body {
+	font-family: "Open Sans";
+	background-color: #3f4754;
+	color: white;
+	margin: 0%;
+	padding: 0%;
+}
+
+nav {
+	z-index: 1;
+	margin-top: 0%;
+	margin: 0%;
+	padding: 0%;
+	background-color: #424249;
+}
+
+nav h1 a {
+	margin: 0%;
+	padding: 0%;
+	font-size: 150%;
+	background-color: #7FADF8;
+	text-decoration: none;
+	color: #3f4754;
+	padding-right: 1%;
+	padding-left: 1%;
+	/*float: left;*/
+	position: absolute;
+}
+
+nav ul {
+	list-style-type: none;
+	text-align: right;
+}
+
+nav ul li {
+	display: inline-block;
+	margin-right: 2%;
+	font-size: 230%;
+	text-align: right;
+}
+
+nav ul a {
+	text-decoration: none;
+	color: white;
+	padding: 0% 2.5% 0% 2.5%;
+	text-align: right;
+}
+
+nav ul a:hover {
+	background-color: #7FADF8;
+}
+
+.paragraph {
+	padding-top: 5%;
+	text-align: center;
+	color: white;
+	font-size: 300%;
+	background-image: url("/photos/code.PNG");
+	padding-bottom: 8%;
+	border-bottom: #7FADF8 solid 3px;
+}
+
+.box {
+	text-align: center;
+	display: inline-block;
+	margin-left: 18%;
+}
+/* end of index.html */
+/* start of contact.html */
+ .soc {
+	text-align: center;
+	display: inline-block;
+	margin-left: 19%;
+	margin-top: 15%;
+ }
+ /* end of contact */
+ /* start of about */
+ .about {
+	padding-top: 1%;
+	padding-bottom: 1%;
+	padding-left: 1%;
+	padding-right: 1%;
+	text-align: center;
+	border: #7FADF8 solid 1%;
+	border-radius: 20px;
+	background-color: #7FADF8;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	/* bring your own prefixes */
+	transform: translate(-50%, -50%);
+}
+/* end of about */
+
+/* mobile site */
+@media only screen and (max-width: 800px) {
+	nav ul {
+		display: none;
+	}
+
+	.dropdown {
+		display: block;
+		margin-left: 82%;
+	}
+	
+	.dropdown button {
+		font-size: 200%;
+		background: #7FADF8;
+		color: #424249;
+		border: none;
+		width: 100%;
+		padding-top: 6%;
+		padding-bottom: 6%;
+		height: 50px;
+	}
+	
+	.dropdown-content {
+		display: none;
+		position: fixed;
+		background-color: #f1f1f1;
+		min-width: 50%;
+		z-index: 1;
+	}
+	
+	.dropdown-content a {
+		color: rgb(228, 214, 214);
+		padding: 10% 5%;
+		text-decoration: none;
+		display: block;
+	}
+	
+	.dropdown-content a:hover {color: #3f4754}
+	
+	.show {display:block;}
+	
+	.dropdown a {
+		text-decoration: none;
+		color: white;
+		background: #7FADF8;
+	}
+
+	.paragraph {
+		padding-top: 5%;
+		text-align: center;
+		color: white;
+		font-size: 300%;
+		background-image: url("");
+		background-color: #424249;
+		padding-bottom: 8%;
+		border-bottom: #7FADF8 solid 3px;
+	}
+
+	.box {
+		display: block;
+		margin-left: 0%;
+	}
+	.html {
+		width: 70%;
+		margin-left: 16%;
+	}
+
+	.css {
+		width: 70%;
+		margin-left: 16%;
+	}
+
+	.js {
+		width: 100%;
+	}
+	/* end of index */
+	/* start of contact */
+	.soc {
+		display: block;
+		margin-left: 1%;
+	}
+}
+
+/* desktop site */
+@media only screen and (min-width: 800px) {
+	.dropdown {
+		display: none;
+	}
+}
+
+/* End of CSS for home page */
