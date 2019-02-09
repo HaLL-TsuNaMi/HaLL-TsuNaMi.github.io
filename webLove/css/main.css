@@ -1,0 +1,78 @@
+body {
+	margin: 0;
+	padding: 0%;
+	background-color: #b19cd9;
+}
+
+.App {
+	width: 100%;
+	margin-top: 15%;
+}
+
+.App h1 {
+	color: white;
+	text-align: center;
+}
+
+.App img {
+	display: block;
+	margin: 0%;
+	padding: 0%;
+	margin-left: auto;
+	margin-right: auto;
+	animation: heartbeat infinite 1.5s linear;
+}
+
+@keyframes heartbeat
+{
+  0%
+  {
+	transform: scale( .75 );
+  }
+  20%
+  {
+	transform: scale( 1 );
+  }
+  40%
+  {
+	transform: scale( .75 );
+  }
+  60%
+  {
+	transform: scale( 1 );
+  }
+  80%
+  {
+	transform: scale( .75 );
+  }
+  100%
+  {
+	transform: scale( .75 );
+  }
+}
+
+.container {
+	color: white;
+	text-align: center;
+	margin-top: 8%;
+	margin-bottom: 1%;
+	background-color: #779ecb;
+}
+
+.container h1 a {
+	text-decoration: none;
+	color: white;
+	text-decoration: underline;
+}
+
+@media screen and (max-width: 800px) {
+	.App {
+		width: 100%;
+		margin-top: 50%;
+		margin-bottom: 50%;
+	}
+
+	.container {
+		margin-top: 5%;
+	}
+}

@@ -54,6 +54,7 @@ nav ul a {
 
 nav ul a:hover {
 	background-color: #7FADF8;
+	color: #3f4754;
 }
 
 .paragraph {
@@ -96,7 +97,25 @@ nav ul a:hover {
 	/* bring your own prefixes */
 	transform: translate(-50%, -50%);
 }
+
 /* end of about */
+
+/* project page */
+.flex {
+	margin: 0%;
+	margin-top: 2%;
+	padding: 5%;
+	border: #7FADF8 solid 5px;
+	border-radius: 5%;
+	background-color: #424249;
+}
+
+.heart {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
 
 /* mobile site */
 @media only screen and (max-width: 800px) {
@@ -178,6 +197,13 @@ nav ul a:hover {
 	.soc {
 		display: block;
 		margin-left: 1%;
+	}
+
+	.heart {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 50%;
 	}
 }
 
