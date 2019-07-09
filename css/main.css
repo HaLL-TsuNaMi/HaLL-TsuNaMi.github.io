@@ -40,7 +40,7 @@ nav ul {
 
 nav ul li {
 	display: inline-block;
-	margin-right: 2%;
+	margin-right: 1%;
 	font-size: 230%;
 	text-align: right;
 }
@@ -48,7 +48,7 @@ nav ul li {
 nav ul a {
 	text-decoration: none;
 	color: white;
-	padding: 0% 2.5% 0% 2.5%;
+	padding: 0% 5% 0% 5%;
 	text-align: right;
 }
 
@@ -57,14 +57,25 @@ nav ul a:hover {
 	color: #3f4754;
 }
 
-.paragraph {
-	padding-top: 5%;
+.background {
+	padding-top: 1%;
+	background-image: url("/photos/code.PNG");
+	padding-bottom: 1%;
+	border-bottom: #7FADF8 solid 3px;
+}
+
+.homeText {
 	text-align: center;
 	color: white;
 	font-size: 300%;
-	background-image: url("/photos/code.PNG");
-	padding-bottom: 8%;
-	border-bottom: #7FADF8 solid 3px;
+}
+
+.backText {
+	border-radius: 100px;
+	margin-left: 25%;
+	margin-right: 25%;
+	padding: 1%;
+	background: rgba(0,0,0,0.5);
 }
 
 .box {
@@ -77,7 +88,7 @@ nav ul a:hover {
  .soc {
 	text-align: center;
 	display: inline-block;
-	margin-left: 19%;
+	margin-left: 17%;
 	margin-top: 15%;
  }
  /* end of contact */
@@ -96,25 +107,35 @@ nav ul a:hover {
 	left: 50%;
 	/* bring your own prefixes */
 	transform: translate(-50%, -50%);
+	color: #424249;
 }
 
 /* end of about */
 
 /* project page */
 .flex {
-	margin: 0%;
 	margin-top: 2%;
-	padding: 5%;
+	padding: 2.5%;
 	border: #7FADF8 solid 5px;
-	border-radius: 5%;
+	border-radius: 50px;
 	background-color: #424249;
+	margin-left: 5%;
+	margin-right: 5%;
 }
 
-.heart {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 50%;
+.Repos {
+	text-align: center;
+	display: inline-block;
+	padding: 1% 0% 1% 0%;
+}
+
+.Repos h3 {
+	text-decoration: underline;
+}
+
+.Repos h3 a {
+	text-decoration: none;
+	color: white;
 }
 
 /* mobile site */
@@ -179,6 +200,7 @@ nav ul a:hover {
 		display: block;
 		margin-left: 0%;
 	}
+
 	.html {
 		width: 70%;
 		margin-left: 16%;
